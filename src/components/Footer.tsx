@@ -43,9 +43,6 @@ const Footer: React.FC = () => {
                 <Link href="/services/modeling" className="hover:text-white transition-colors">Data Modeling</Link>
               </li>
               <li>
-                <Link href="/services/monitoring" className="hover:text-white transition-colors">Monitoring & Analytics</Link>
-              </li>
-              <li>
                 <Link href="/services/security" className="hover:text-white transition-colors">Search Relevance</Link>
               </li>
               <li>
