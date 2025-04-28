@@ -11,22 +11,31 @@ import BlogSection from './components/BlogSection';
 import Contact from './components/Contact';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
+import AboutPage from './components/AboutPage';
 
 function App() {
+  const isAboutPage = window.location.pathname === '/about';
+
   return (
     <div className="min-h-screen">
       <Header />
       <main>
-        <Hero />
-        <CompanyLogos />
-        <Services />
-        <Features />
-        <CaseStudies />
-        <Testimonials />
-        <Pricing />
-        <BlogSection />
-        <CTASection />
-        <Contact />
+        {isAboutPage ? (
+          <AboutPage />
+        ) : (
+          <>
+            <Hero />
+            <CompanyLogos />
+            <Services />
+            <Features />
+            <CaseStudies />
+            <Testimonials />
+            <Pricing />
+            <BlogSection />
+            <CTASection />
+            <Contact />
+          </>
+        )}
       </main>
       <Footer />
     </div>

@@ -5,7 +5,7 @@ import { ArrowRight, Search } from 'lucide-react';
 const Hero: React.FC = () => {
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-blue-50 to-teal-50 flex items-center">
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-center opacity-5"></div>
+      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/373543/pexels-photo-373543.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')] bg-cover bg-center opacity-5 pointer-events-none"></div>
       
       <div className="container mx-auto px-4 md:px-6 py-24 pt-32 md:py-32">
         <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -25,7 +25,9 @@ const Hero: React.FC = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <Link 
-                href="/contact" 
+                href="https://cal.com/query-quotient-intro/30min?user=query-quotient-intro"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-6 rounded-md transition-colors duration-300 text-center flex-1 sm:flex-none flex items-center justify-center"
               >
                 Get Free Consultation

@@ -55,8 +55,10 @@ const CTASection: React.FC = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link 
-              href="/contact" 
+            <Link   
+              href="https://cal.com/query-quotient-intro/30min?user=query-quotient-intro"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white hover:bg-gray-50 text-blue-600 font-medium py-3 px-6 rounded-md transition-colors duration-300 flex-1 sm:flex-none flex items-center justify-center"
             >
               Schedule a Free Consultation
