@@ -5,12 +5,12 @@ import 'swiper/css';
 
 const companies = [
   {
-    name: 'Microsoft',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/2048px-Microsoft_logo.svg.png'
+    name: 'Foundit',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Foundit-Logo.svg'
   },
   {
-    name: 'IBM',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg'
+    name: 'Alphasense',
+    logo: '/images/alphasense_logo.svg'
   },
   {
     name: 'Oracle',
