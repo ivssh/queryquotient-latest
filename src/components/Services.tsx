@@ -27,12 +27,12 @@ const services = [
     description: "Implement comprehensive monitoring solutions to maintain visibility and quickly troubleshoot issues before they impact users.",
     link: "/services/monitoring"
   },
-  {
-    icon: <AlertCircle className="h-8 w-8 text-blue-600" />,
-    title: "Security Hardening",
-    description: "Protect your valuable data with industry best practices for securing Elasticsearch, including authentication, encryption, and access controls.",
-    link: "/services/security"
-  },
+  // {
+  //   icon: <AlertCircle className="h-8 w-8 text-blue-600" />,
+  //   title: "Security Hardening",
+  //   description: "Protect your valuable data with industry best practices for securing Elasticsearch, including authentication, encryption, and access controls.",
+  //   link: "/services/security"
+  // },
   {
     icon: <LayoutGrid className="h-8 w-8 text-blue-600" />,
     title: "Custom Solutions",

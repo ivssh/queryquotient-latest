@@ -173,7 +173,6 @@ const Contact: React.FC = () => {
                       <option value="architecture">Architecture Design</option>
                       <option value="data-modeling">Data Modeling</option>
                       <option value="monitoring">Monitoring & Analytics</option>
-                      <option value="security">Security Hardening</option>
                       <option value="custom">Custom Solutions</option>
                       <option value="training">Training & Workshops</option>
                     </select>

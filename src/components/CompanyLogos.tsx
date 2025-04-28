@@ -17,24 +17,20 @@ const companies = [
     logo: 'https://upload.wikimedia.org/wikipedia/commons/5/50/Oracle_logo.svg'
   },
   {
-    name: 'Salesforce',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg'
+    name: 'HomeDepot',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/TheHomeDepot.svg/227px-TheHomeDepot.svg.png'
   },
   {
-    name: 'Adobe',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/8d/Adobe_Corporate_Logo.svg'
+    name: 'Zepto',
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/8/81/Zepto_Logo.svg'
   },
   {
-    name: 'SAP',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/59/SAP_2011_logo.svg'
+    name: 'Grabjobs',
+    logo: '/images/grabjobs_logo.svg'
   },
   {
-    name: 'VMware',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/9/9a/Vmware.svg'
-  },
-  {
-    name: 'Intel',
-    logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Intel_logo_%282006-2020%29.svg'
+    name: 'Lenskart',
+    logo: '/images/lenskart_logo.svg'
   }
 ];
 
