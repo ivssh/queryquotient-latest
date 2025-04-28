@@ -13,6 +13,22 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Netlify hidden form for buildbot detection -->
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="text" name="company" />
+      <select name="service">
+        <option value="performance">Performance Optimization</option>
+        <option value="architecture">Architecture Design</option>
+        <option value="data-modeling">Data Modeling</option>
+        <option value="monitoring">Monitoring & Analytics</option>
+        <option value="custom">Custom Solutions</option>
+        <option value="training">Training & Workshops</option>
+      </select>
+      <textarea name="message"></textarea>
+      <input name="bot-field" />
+    </form>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
