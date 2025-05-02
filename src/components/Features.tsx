@@ -39,19 +39,19 @@ const Features: React.FC = () => {
             </p>
             
             <div className="grid grid-cols-2 gap-6">
-              <div className="text-center">
+              <div className="text-left">
                 <div className="text-4xl font-bold text-blue-600 mb-2">50+</div>
                 <div className="text-gray-600">Enterprise Clients</div>
               </div>
-              <div className="text-center">
+              <div className="text-left">
                 <div className="text-4xl font-bold text-blue-600 mb-2">10+</div>
                 <div className="text-gray-600">Years Experience</div>
               </div>
-              <div className="text-center">
+              <div className="text-left">
                 <div className="text-4xl font-bold text-blue-600 mb-2">100%</div>
                 <div className="text-gray-600">Client Satisfaction</div>
               </div>
-              <div className="text-center">
+              <div className="text-left">
                 <div className="text-4xl font-bold text-blue-600 mb-2">24/7</div>
                 <div className="text-gray-600">Support Available</div>
               </div>
