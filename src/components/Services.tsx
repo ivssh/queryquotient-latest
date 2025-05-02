@@ -51,24 +51,26 @@ const Services: React.FC = () => {
   return (
     <section className="py-20 bg-white" id="services">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="text-center max-w-3xl mx-auto mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Comprehensive Elasticsearch Services</h2>
-          <p className="text-lg text-gray-600">
+      <div className="text-center max-w-3xl mx-auto mb-10 md:mb-16">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-3 md:mb-4">
+            Comprehensive Elasticsearch Services
+          </h2>
+          <p className="text-base sm:text-lg text-gray-600">
             From performance tuning to architecture design, we provide end-to-end solutions for all your Elasticsearch needs.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {services.map((service, index) => (
             <div 
               key={index}
-              className="bg-white p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full group"
+              className="bg-white p-5 sm:p-6 md:p-8 rounded-xl border border-gray-100 shadow-sm hover:shadow-md transition-shadow duration-300 flex flex-col h-full group"
             >
-              <div className="mb-5 p-3 bg-blue-50 rounded-lg w-fit">
+              <div className="mb-4 sm:mb-5 p-2 sm:p-3 bg-blue-50 rounded-lg w-fit">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-bold mb-3 text-gray-900">{service.title}</h3>
-              <p className="text-gray-600 mb-5 flex-grow">{service.description}</p>
+              <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3 text-gray-900">{service.title}</h3>
+              <p className="text-gray-600 mb-4 sm:mb-5 flex-grow">{service.description}</p>
               <Link 
                 href={service.link} 
                 className="mt-auto text-blue-600 font-medium flex items-center group-hover:text-blue-700 transition-colors"
@@ -80,10 +82,10 @@ const Services: React.FC = () => {
           ))}
         </div>
         
-        <div className="mt-16 text-center">
+        <div className="mt-10 md:mt-16 text-center">
           <Link 
             href="/services" 
-            className="inline-flex items-center border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium py-3 px-6 rounded-md transition-colors duration-300"
+            className="inline-flex items-center border-2 border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white font-medium py-2.5 sm:py-3 px-4 sm:px-6 rounded-md transition-colors duration-300 text-base sm:text-lg"
           >
             View All Services
             <ArrowRight className="ml-2 h-5 w-5" />
