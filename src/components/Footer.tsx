@@ -8,6 +8,26 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-4 md:px-6 pt-16 pb-8">
+        {/* Partner/Certification Logos */}
+        <div className="flex flex-col items-center mb-8">
+          <div className="mb-2 text-xs text-gray-400 uppercase tracking-widest">Proud Partner</div>
+          <div className="flex flex-wrap justify-center items-center gap-4">
+            {/* Example: Add your partner logos here */}
+            <img
+              src="/images/elastic-verified-msp.png"
+              alt="Elastic Partner"
+              className="h-18 w-auto max-w-[250px] object-contain"
+              style={{ maxHeight: 180 }}
+            />
+            {/* Add more logos as needed */}
+            <img 
+              src="/images/aws_os_partner.png"
+              alt="Elastic Partner"
+              className="h-18 w-auto max-w-[180px] object-contain"
+              style={{ maxHeight: 180 }}
+            />
+          </div>
+        </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <Link href="/" className="text-2xl font-bold text-white flex items-center mb-5">
