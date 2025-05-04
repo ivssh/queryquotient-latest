@@ -12,9 +12,14 @@ import Contact from './components/Contact';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
 import AboutPage from './components/AboutPage';
+import PrivacyPage from './components/PrivacyPage'; // NEW
+import TermsPage from './components/TermsPage';     // NEW
 
 function App() {
-  const isAboutPage = window.location.pathname === '/about';
+  const path = window.location.pathname;
+  const isAboutPage = path === '/about';
+  const isPrivacyPage = path === '/privacy'; // NEW
+  const isTermsPage = path === '/terms';     // NEW
 
   return (
     <div className="min-h-screen">
@@ -22,6 +27,10 @@ function App() {
       <main>
         {isAboutPage ? (
           <AboutPage />
+        ) : isPrivacyPage ? (
+          <PrivacyPage />
+        ) : isTermsPage ? (
+          <TermsPage />
         ) : (
           <>
             <Hero />
